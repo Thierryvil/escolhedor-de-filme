@@ -1,0 +1,101 @@
+body { 
+    background-color: #293132;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+.container {
+    margin: auto;
+    width: 50%;
+    padding: 20px;
+
+    border: solid 2px #BCC6C8 ;
+}
+
+.head {
+    color: #BCC6C8;
+    text-transform: uppercase;
+}
+
+.movie {
+    color: #BCC6C8;
+    margin-top: 10px;
+    font-weight: bold;
+
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.movie-title {
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.movie-info {
+    margin-left: 10px;
+}
+
+.movie-poster {
+   width: 300px;
+}
+
+.pre-loader {
+   height: 40px;
+   display: none;
+ }
+  
+ .pre-loader > div {
+    background-color: #34495e;
+    height: 100%;
+    width: 10px;
+    display: inline-block;
+ }
+
+ .pre-loader > div {
+    background-color: #fff;
+    height: 100%;
+    width: 10px;
+    display: inline-block;
+    
+    -webkit-animation: heightChange 1s infinite ease-in-out;
+    animation: heightChange 1s infinite ease-in-out;
+ }
+
+ .pre-loader .box2 {
+    -webkit-animation-delay: -0.9s;
+    animation-delay: -0.9s;
+ }
+  
+ .pre-loader .box3 {
+    -webkit-animation-delay: -0.8s;
+    animation-delay: -0.8s;
+ }
+  
+ .pre-loader .box4 {
+    -webkit-animation-delay: -0.7s;
+    animation-delay: -0.7s;
+ }
+  
+ .pre-loader .box5 {
+    -webkit-animation-delay: -0.6s;
+    animation-delay: -0.6s;
+ }
+
+ @keyframes myMove {
+    0%   {top: 0px;}
+    25%  {top: 200px;}
+    50%  {top: 100px;}
+    75%  {top: 200px;}
+    100% {top: 0px;}
+ }
+
+ @-webkit-keyframes heightChange {
+    0%, 40%, 100% { -webkit-transform: scaleY(0.4) }  
+    20% { -webkit-transform: scaleY(1.0) }
+ }
+  
+ @keyframes heightChange {
+    0%, 40%, 100% { transform: scaleY(0.4); }  
+    20% { transform: scaleY(1.0); }
+ }
