@@ -1,5 +1,5 @@
 # Escolhedor de Filme
-Uma micro aplicação feito em Python, utilizando Flask, HTML, CSS E JavaScript
+Uma micro aplicação feito em Python, utilizando Flask, HTML, CSS e JavaScript
 
 ![escolher-de-fime.gif](https://i.imgur.com/7UOpy2g.gif)
 
@@ -7,7 +7,7 @@ Uma micro aplicação feito em Python, utilizando Flask, HTML, CSS E JavaScript
 Na hora de escolher um filme é muito fácil nós ficarmos minutos e minutos só olhando as opções que estão na nossa frente, com essa micro aplicação esse problema acabou.
 Aplicação filtra os filme com base no genero que você escolher. 
 
-Para isso utilizaremos a api publica do [The Movie Database](https://www.themoviedb.org/). 
+Para isso utilizaremos a api do [The Movie Database](https://www.themoviedb.org/). 
 
 # Começando
 Você iria precisar se registar, basta seguir os passos clicando [aqui](https://developers.themoviedb.org/3/getting-started/introduction).
